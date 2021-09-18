@@ -1,35 +1,111 @@
 package com.example.covid;
 
+import android.annotation.TargetApi;
+import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
+
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Info extends Fragment {
 
-    WebView covid_india, covid_state, covid_wiki;
+    Context context;
+    WebView covid_wiki;
+    RecyclerView covidNews;
+    List<newsModel> newsModelList;
+    newsAdaptor newsAdaptor;
+    newsModel newsModel;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_info, container, false);
 
-        covid_india = view.findViewById(R.id.covid_news);
-        covid_india.setWebViewClient(new WebViewClient());
-        covid_state = view.findViewById(R.id.covid_state);
+        context = view.getContext();
+        covidNews = view.findViewById(R.id.covid_news);
+        covidNews.setHasFixedSize(true);
+
         covid_wiki = view.findViewById(R.id.covid_wiki);
 
-        WebSettings webSettings = covid_india.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        covid_india.loadUrl("https://www.google.com/search?q=covid-19+news+in+india&biw=767&bih=712&tbm=nws&sxsrf=AOaemvL4m8w1pwMpPUxGCvXEYvOw9xQKwA%3A1631872629797&ei=dWZEYYePMKHVmAXhiaKoAg&oq=covid-19+news+in+&gs_l=psy-ab.3.1.0i512k1l10.618543.623538.0.625752.21.19.0.0.0.0.657.2080.0j3j4j5-1.8.0....0...1c.1.64.psy-ab..16.5.1411...0i67k1j0i512i433i131k1j0i433i131k1j0i433i131i273k1j0i273k1.0.lVBxgDH5I_w");
-        if (covid_india.canGoBack())
-            covid_india.goBack();
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false);
+        linearLayoutManager.setReverseLayout(false);
+        linearLayoutManager.setStackFromEnd(false);
+        covidNews.setLayoutManager(linearLayoutManager);
+
+        newsModelList = new ArrayList<>();
+        fetchNews();
+
+        covid_wiki.getSettings().setJavaScriptEnabled(true);
+        covid_wiki.setWebViewClient(new WebViewClient());
+        covid_wiki.loadUrl("https://en.wikipedia.org/wiki/COVID-19");
+        covid_wiki.requestFocus();
         return view;
+    }
+
+    private void fetchNews() {
+        String url = "https://saurav.tech/NewsAPI/top-headlines/category/health/in.json";
+        StringRequest request = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    JSONObject object = new JSONObject(response);
+                    JSONArray array = object.getJSONArray("articles");
+
+                    for (int i = 0; i < array.length(); i++) {
+                        JSONObject jsonObject = array.getJSONObject(i);
+                        String auth = jsonObject.get("author").toString(),
+                                name = jsonObject.getJSONObject("source").get("name").toString(),
+                                title = jsonObject.get("title").toString(),
+                                url = jsonObject.get("url").toString(),
+                                imgUrl = jsonObject.get("urlToImage").toString();
+
+                        if (title.contains("covid") || title.contains("corona") || title.contains("COVID")) {
+                            newsModel = new newsModel(auth, name, title, url, imgUrl);
+                            newsModelList.add(newsModel);
+                        }
+                    }
+
+                    newsAdaptor = new newsAdaptor(getContext(), newsModelList);
+                    covidNews.setAdapter(newsAdaptor);
+
+                } catch (JSONException e) {
+                    Toast.makeText(context, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        RequestQueue requestQueue = Volley.newRequestQueue(context);
+        requestQueue.add(request);
     }
 
 }
