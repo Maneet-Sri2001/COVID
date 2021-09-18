@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mhome"
+        android:icon="@drawable/virus"
+        android:title="" />
+
+    <item
+        android:id="@+id/mstats"
+        android:icon="@drawable/diagram"
+        android:title="" />
+
+    <item
+        android:id="@+id/minfo"
+        android:icon="@drawable/clipboard"
+        android:title="" />
+</menu>

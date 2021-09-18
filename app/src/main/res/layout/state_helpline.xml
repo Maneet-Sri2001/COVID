@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="600dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="5dp"
+            android:gravity="bottom"
+            android:padding="5dp"
+            android:text="CoVID Facilities in States/UT"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/disclaimer"
+            android:textSize="14sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="State/UT\n"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Help line\n"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="State Website link for\nCOVID facilties"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Andaman &amp; Nicobar Island" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:gravity="center"
+                    android:text="03192-232102" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://dhs.andaman.gov.in/NewEvents/249.jpeg" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Andhra Pradesh" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="0866-2410978" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://hmfw.ap.gov.in/COVID-19%20IEC/COVID-19%20Hospitals.pdf" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_margin="3dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Arunachal Pradesh" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="9436055743" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://nhm.assam.gov.in/portlet-innerpage/dedicated-covid-hospitals" />
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Assam" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="6913347770" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://nhm.assam.gov.in/portlet-innerpage/dedicated-covid-hospitals" />
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Bihar" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://statehealthsocietybihar.org/" />
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Chandigarh" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="9779558282" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://chdcovid19.in/" />
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Chhattisgarh" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://cghealth.nic.in/cghealth17/" />
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Dadra &amp; Nagar Haveli and Daman &amp; Diu" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://dnh.nic.in/Docs/COVID19/COVID19Health_Fac08052020.pdf" />
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Delhi" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="011-22307145" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://coronabeds.jantasamvad.org/" />
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Goa" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://nhm.goa.gov.in/corona-virus-important-links-iec/" />
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Gujarat" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://nrhm.gujarat.gov.in/cir-noti-covid-19.htm" />
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Haryana" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="8558893911" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://nhmharyana.gov.in/page.aspx?id=208"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Himachal Pradesh" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://www.nrhmhp.gov.in/content/covid-health-facilities"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Jammu &amp; Kashmir" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="01912520982, 01942440283" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://www.jknhm.com/covidfacilities.php"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Jharkhand" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://jrhms.jharkhand.gov.in/FileUploaded%20By%20User/DCovid_Hospitals.pdf"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Karnataka" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://karunadu.karnataka.gov.in/hfw/nhm/pages/home.aspx"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Kerala" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="0471-2552056" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://arogyakeralam.gov.in/2020/03/25/guidelines/"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Ladakh" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="01982256452" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://leh.nic.in/notice/covid19-hospital/"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Lakshadweep" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://cdn.s3waas.gov.in/s358238e9ae2dd305d79c2ebc8c1883422/uploads/2020/05/2020051228-1.pdf"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Madhya Pradesh" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://www.nhmmp.gov.in/CovidInformation.aspx"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Maharahtra" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="020-26127394" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://arogya.maharashtra.gov.in/1177/Dedicated-COVID-Facilities-Status"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Manipur" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="3852411668" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://nrhmmanipur.org/?page_id=2602"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Meghalaya" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="108" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://meghalayaonline.gov.in/covid/images/materials/hospitals.pdf"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Mizoram" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="102" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://nhmmizoram.org/page?id=202"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Nagaland" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="7005539653" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://nhmnagaland.in/Notification_file_path/Dedicated%20COVID%20Hospitals%20in%20Nagaland.pdf"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Odisha" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="9439994859" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://statedashboard.odisha.gov.in/"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Puducherry" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://health.py.gov.in/sites/default/files/NEET-PDF/Categorisation%20of%20covid%20facilities.pdf"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Punjab" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://pbhealth.gov.in/"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Sikkim" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://www.covid19sikkim.org/"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tamil Nadu" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="044-29510500" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://stopcorona.tn.gov.in/%e0%ae%ae%e0%af%81%e0%ae%95%e0%af%8d%e0%ae%95%e0%ae%bf%e0%ae%af-%e0%ae%a4%e0%ae%95%e0%ae%b5%e0%ae%b2%e0%af%8d%e0%ae%95%e0%ae%b3%e0%af%8d/"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Telangana" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://www.chfw.telangana.gov.in/covid_hospitals.html"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tripura" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="0381-2315879" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://tripuranrhm.gov.in/home/0905202001.pdf"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Uttar Pradesh" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="18001805145" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://updgmh-covid19.maps.arcgis.com/apps/opsdashboard/index.html#/bfc888151feb48928a4f6885ca20e83c"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Uttarakhand" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="104" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://health.uk.gov.in/pages/view/102-dedicated-covid-facilities-in-state"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="West Bengal" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:autoLink="phone"
+                    android:text="1800313444222, 03323412600" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="https://www.wbhealth.gov.in/uploaded_files/corona/Notification___Revised___67_Covid_Hospital___30.04_.2020_.pdf"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Toll Free - 1075"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

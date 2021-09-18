@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.202734375" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/btm_nav_bg.xml" value="0.152" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/card_top.xml" value="0.152" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/cell_shape.xml" value="0.16319444444444445" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/color_btm_nav.xml" value="0.2703125" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/ic_call.xml" value="0.2703125" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/ic_chart.xml" value="0.202734375" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/ic_corona.xml" value="0.202734375" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/ic_email.xml" value="0.202734375" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/ic_flag.xml" value="0.202734375" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/ic_increase.xml" value="0.202734375" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/ic_info.xml" value="0.2703125" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/drawable/ic_launcher_background.xml" value="0.202734375" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/layout/fragment_home_screen.xml" value="0.21245102307357422" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/layout/fragment_info.xml" value="0.1" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/layout/fragment_statictics.xml" value="0.2" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/layout/helpline_dialoge.xml" value="0.190625" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/layout/list_item.xml" value="0.190625" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/layout/spinner_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/layout/state_helpline.xml" value="0.1" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/menu/btm_nav.xml" value="0.1" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.202734375" />
+        <entry key="..\:/Users/maneet/AndroidStudioProjects/COVID/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.202734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
