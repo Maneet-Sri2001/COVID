@@ -2,14 +2,17 @@ package com.example.covid;
 
 public class newsModel {
 
-    String auth, name, tiltle, url, imgUrl;
+    String auth, name, tiltle, url, imgUrl, des, content, publishAt;
 
-    public newsModel(String auth, String name, String tiltle, String url, String imgUrl) {
+    public newsModel(String auth, String name, String tiltle, String url, String imgUrl, String des, String content, String publishAt) {
         this.auth = auth;
         this.name = name;
         this.tiltle = tiltle;
         this.url = url;
         this.imgUrl = imgUrl;
+        this.des = des;
+        this.content = content;
+        this.publishAt = publishAt;
     }
 
     public String getAuth() {
@@ -50,5 +53,29 @@ public class newsModel {
 
     public void setImgUrl(String imgUrl) {
         this.imgUrl = imgUrl;
+    }
+
+    public String getDes() {
+        return des;
+    }
+
+    public void setDes(String des) {
+        this.des = des;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public String getPublishAt() {
+        return publishAt;
+    }
+
+    public void setPublishAt(String publishAt) {
+        this.publishAt = publishAt;
     }
 }

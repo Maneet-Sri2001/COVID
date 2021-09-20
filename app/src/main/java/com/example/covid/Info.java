@@ -81,10 +81,13 @@ public class Info extends Fragment {
                                 name = jsonObject.getJSONObject("source").get("name").toString(),
                                 title = jsonObject.get("title").toString(),
                                 url = jsonObject.get("url").toString(),
-                                imgUrl = jsonObject.get("urlToImage").toString();
+                                imgUrl = jsonObject.get("urlToImage").toString(),
+                        con = jsonObject.get("content").toString(),
+                        des = jsonObject.get("description").toString(),
+                        pubAt = jsonObject.get("publishedAt").toString();
 
-                        if (title.contains("covid") || title.contains("corona") || title.contains("COVID")) {
-                            newsModel = new newsModel(auth, name, title, url, imgUrl);
+                        if (title.contains("covid") || title.contains("corona") || title.contains("COVID") || title.contains("CORONA")) {
+                            newsModel = new newsModel(auth, name, title, url, imgUrl, des, con, pubAt);
                             newsModelList.add(newsModel);
                         }
                     }
