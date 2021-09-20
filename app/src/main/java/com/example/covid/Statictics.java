@@ -2,18 +2,14 @@ package com.example.covid;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ListView;
-import android.widget.TextView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -21,7 +17,6 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.leo.simplearcloader.SimpleArcLoader;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,7 +24,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class Statictics extends Fragment {
 
@@ -98,18 +92,17 @@ public class Statictics extends Fragment {
                                 todcases = jsonObject.get("todayCases").toString(),
                                 death = jsonObject.get("deaths").toString(),
                                 todDeath = jsonObject.get("todayDeaths").toString(),
-                                rec= jsonObject.get("recovered").toString(),
-                                todRec= jsonObject.get("todayRecovered").toString();
+                                rec = jsonObject.get("recovered").toString(),
+                                todRec = jsonObject.get("todayRecovered").toString();
 
                         modal = new stateModal(cases, todcases, death, todDeath, rec, todRec, state);
                         stateModalList.add(modal);
-                        }
+                    }
 
                     adapter = new stateAdapter(context, stateModalList);
                     stateList.setAdapter(adapter);
 
-                    }
-                 catch (JSONException e) {
+                } catch (JSONException e) {
                     e.printStackTrace();
                 }
 
