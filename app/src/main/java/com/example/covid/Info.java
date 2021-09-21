@@ -1,14 +1,10 @@
 package com.example.covid;
 
-import android.annotation.TargetApi;
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebResourceRequest;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
@@ -59,10 +55,14 @@ public class Info extends Fragment {
         newsModelList = new ArrayList<>();
         fetchNews();
 
-        covid_wiki.getSettings().setJavaScriptEnabled(true);
         covid_wiki.setWebViewClient(new WebViewClient());
-        covid_wiki.loadUrl("https://en.wikipedia.org/wiki/COVID-19");
-        covid_wiki.requestFocus();
+        covid_wiki.getSettings().setJavaScriptEnabled(true);
+        covid_wiki.loadUrl("https://www.webmd.com/lung/coronavirus");
+
+        covid_wiki.canGoBack();
+        covid_wiki.getSettings().setLoadsImagesAutomatically(true);
+        covid_wiki.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+
         return view;
     }
 
@@ -82,9 +82,9 @@ public class Info extends Fragment {
                                 title = jsonObject.get("title").toString(),
                                 url = jsonObject.get("url").toString(),
                                 imgUrl = jsonObject.get("urlToImage").toString(),
-                        con = jsonObject.get("content").toString(),
-                        des = jsonObject.get("description").toString(),
-                        pubAt = jsonObject.get("publishedAt").toString();
+                                con = jsonObject.get("content").toString(),
+                                des = jsonObject.get("description").toString(),
+                                pubAt = jsonObject.get("publishedAt").toString();
 
                         if (title.contains("covid") || title.contains("corona") || title.contains("COVID") || title.contains("CORONA")) {
                             newsModel = new newsModel(auth, name, title, url, imgUrl, des, con, pubAt);
