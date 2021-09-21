@@ -9,16 +9,31 @@ API Used -
   * News Scraper (https://saurav.tech/NewsAPI/top-headlines/category/health/in.json)
 With a minimilistic design it has some good images too😅😅😅😅😅😅.
 
+![home_screen](https://user-images.githubusercontent.com/63508618/134155962-55321339-acdc-4a20-943b-7c5dd31907f8.jpeg)
+
+Home Screen of the app i.e begining here
+
+![state_helpline_dia](https://user-images.githubusercontent.com/63508618/134156087-7865a938-693c-4487-be91-6c5c7a01e81f.jpeg)
+Dialog showing various State's and UT Covid facilities.
+
+![central_helpline_dia](https://user-images.githubusercontent.com/63508618/134156210-f5d10dec-42cb-4ab8-8bb0-8281652cf31a.jpeg)
+Dialog showing Central Covid Info.
+
+
+
+![stats](https://user-images.githubusercontent.com/63508618/134156049-1cdb4e24-0b9c-41da-a7c8-630e18403d2d.jpeg)
+![stats(1)](https://user-images.githubusercontent.com/63508618/134156054-163fc796-25ac-4864-930d-e266a894cf85.jpeg)
+
+Above is the Stats Section of the Application.
+
+
+![info_frag](https://user-images.githubusercontent.com/63508618/134156453-6ab7da88-bf98-4eb4-b783-28a85db08911.jpeg)
+![news_dia](https://user-images.githubusercontent.com/63508618/134156459-eda094cc-d905-4643-82e5-48451b1f340a.jpeg)
+Information Section showing Covid News and a article on it.
+
+
 Sorry for name mis-match....
 
 I have been working on it hard.
 I hope you like this.
-![WhatsApp Image 2021-09-21 at 3 45 00 PM](https://user-images.githubusercontent.com/63508618/134155538-aeb5c2ec-c5f6-44f1-a88c-4974df9d63f0.jpeg)
-![WhatsApp Image 2021-09-21 at 3 45 00 PM (6)](https://user-images.githubusercontent.com/63508618/134155543-cdea66a0-7f4d-4054-b32f-49552f5773c3.jpeg)
-![WhatsApp Image 2021-09-21 at 3 45 00 PM (5)](https://user-images.githubusercontent.com/63508618/134155546-1185546a-f10d-4618-b0b8-f7acb7a67486.jpeg)
-![WhatsApp Image 2021-09-21 at 3 45 00 PM (4)](https://user-images.githubusercontent.com/63508618/134155547-46bb7cdd-091a-46cf-a9c4-3082f5dc5cba.jpeg)
-![WhatsApp Image 2021-09-21 at 3 45 00 PM (3)](https://user-images.githubusercontent.com/63508618/134155550-2cbace5e-9748-43c5-a1e6-d866cb1b8f0a.jpeg)
-![WhatsApp Image 2021-09-21 at 3 45 00 PM (2)](https://user-images.githubusercontent.com/63508618/134155554-e152fa43-85be-4fb2-b81b-bac140d07d6b.jpeg)
-![WhatsApp Image 2021-09-21 at 3 45 00 PM (1)](https://user-images.githubusercontent.com/63508618/134155558-c8112bff-e901-476b-a78d-f5781b9afd95.jpeg)
-
 **Thanks For being here.**
