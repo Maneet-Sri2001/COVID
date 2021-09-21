@@ -18,9 +18,12 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
+            android:background="@drawable/btm_nav_bg"
             android:drawablePadding="3dp"
-            android:gravity="center"
+            android:gravity="start"
+            android:padding="5dp"
             android:text="Statistics"
+            android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold"
             app:drawableLeftCompat="@drawable/ic_chart" />
