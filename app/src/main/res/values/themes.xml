@@ -8,6 +8,7 @@
         <item name="android:textColor">@color/black</item>
         <item name="cardBackgroundColor">@color/background</item>
         <item name="background">@color/textP</item>
+        <item name="iconTint">@color/navy</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/night</item>
         <item name="colorSecondaryVariant">@color/brown</item>

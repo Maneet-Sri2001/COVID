@@ -19,7 +19,7 @@
             android:drawablePadding="5dp"
             android:gravity="bottom"
             android:padding="5dp"
-            android:text="Get News about CoVID in India"
+            android:text="CoVID in today's NEWS"
             android:textSize="20sp"
             android:textStyle="bold" />
 

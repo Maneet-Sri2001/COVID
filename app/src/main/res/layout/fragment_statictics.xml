@@ -18,12 +18,12 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
-            android:drawableLeft="@drawable/ic_chart"
             android:drawablePadding="3dp"
             android:gravity="center"
             android:text="Statistics"
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:drawableLeftCompat="@drawable/ic_chart" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
