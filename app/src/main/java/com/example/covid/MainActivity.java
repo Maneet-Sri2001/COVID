@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.mstats:
                         frag = new Statictics();
                         break;
+                    case R.id.vaccine:
+                        frag = new CheckVaccine();
+                        break;
                 }
                 return defFrag(frag);
                 }

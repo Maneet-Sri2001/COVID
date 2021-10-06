@@ -105,6 +105,7 @@
                             android:layout_marginBottom="3dp"
                             android:background="@drawable/btm_nav_bg"
                             android:backgroundTint="#FF0000"
+                            android:elevation="4dp"
                             android:gravity="center"
                             android:orientation="horizontal">
 
@@ -135,8 +136,13 @@
                             android:layout_marginBottom="3dp"
                             android:background="@drawable/btm_nav_bg"
                             android:backgroundTint="#4169E1"
+                            android:clickable="true"
+                            android:elevation="4dp"
+                            android:fadingEdgeLength="5dp"
+                            android:focusable="true"
                             android:gravity="center"
-                            android:orientation="horizontal">
+                            android:orientation="horizontal"
+                            tools:ignore="TouchTargetSizeCheck">
 
                             <ImageView
                                 android:layout_width="wrap_content"

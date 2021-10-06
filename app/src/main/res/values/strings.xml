@@ -2,4 +2,6 @@
     <string name="app_name">Co-Info</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="disclaimer">Public is hereby informed to call the Call centre at the Hospital/District/State level to know the availability of beds and ventilators before proceeding to the hospitals concerned for their requirements.\n\nThe list of hospitals earmarked by the States/ UTs along with the State specific help line number is given below :\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

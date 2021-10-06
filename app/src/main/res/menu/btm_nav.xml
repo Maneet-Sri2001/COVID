@@ -11,6 +11,12 @@
         android:title="" />
 
     <item
+        android:id="@+id/vaccine"
+        android:title=""
+        android:icon="@drawable/ic_health"/>
+
+
+    <item
         android:id="@+id/minfo"
         android:icon="@drawable/clipboard"
         android:title="" />
