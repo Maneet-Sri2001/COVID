@@ -30,10 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_margin="5dp"
                 android:hint="Enter area Pincode"
                 android:inputType="number" />
 
@@ -43,7 +40,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/text"
                 android:layout_alignParentEnd="true"
-                android:text="Check" />
+                android:text="Check"
+                android:background="@drawable/btm_nav_bg"/>
         </RelativeLayout>
     </com.google.android.material.card.MaterialCardView>
 
@@ -51,5 +49,5 @@
         android:id="@+id/state_vaccine_status"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/card"/>
+        android:layout_below="@id/card" />
 </RelativeLayout>
